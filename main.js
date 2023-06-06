@@ -9,7 +9,8 @@ let daysData = ['', 1, 2, 3, 4, 5
 
 ];
 let luggage=0;
-let check=0;
+let check1=0;
+let check2=0;
 let day_tempmin = [];
 let day_tempmax = [];
 days = document.getElementById("daysSelect");
@@ -99,14 +100,14 @@ function loadServerData() {
 						
 				}
 				
-			}if(luggage==1&check==0)
+			}if(luggage==1&check1==0)
 				{	//deletee();
 					addelement("雨傘")
-					check=1;}
-			else if(luggage==0&check==0){
+					check1=1;}
+			else if(luggage==0&check2==0){
 				   //deletee();
 					addelement("防曬");
-					check=1
+					check2=1
 				}
 
 		})
